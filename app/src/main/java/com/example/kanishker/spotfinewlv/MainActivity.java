@@ -18,18 +18,18 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        Button btnenter = (Button) findViewById(R.id.btn_enter);
+        //Button btnenter = (Button) findViewById(R.id.btn_enter);
 
         Button dlog = (Button) findViewById(R.id.btn_dialog);
 
-        btnenter.setOnClickListener(new View.OnClickListener() {
+        /*btnenter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intt = new Intent(getApplicationContext(),ViewUser.class);
                 startActivity(intt);
 
             }
-        });
+        });*/
 
         dlog.setOnClickListener(new View.OnClickListener() {
             @Override
